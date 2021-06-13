@@ -1,0 +1,49 @@
+/*Dinamismo de la página*/
+
+/*Declarar animación*/
+
+@keyframes enlacesEntrando{  /*Propiedad que define la animación*/
+    /*Segmentación de tiempo en %*/
+    0%{
+        transform: translateY(-400px); /*Transform: Propiedad que modifica la animación*/
+    }
+    25%{
+        transform: translateY(-200px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    75%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+} 
+
+@keyframes tarjetaNombre{    
+
+    0%{
+        transform: translateX(-200px); 
+    }
+    20%{
+        transform: translateX(-130px);
+    }
+    40%{
+        transform: translateX(-60px);
+    }
+    60%{
+        transform: translateX(0px);
+    }
+    80%{
+        transform: translateX(-30px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+} 
+
+/*animate.style (página)
+    animate.css (librería)
+
+*/
